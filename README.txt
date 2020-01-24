@@ -31,3 +31,9 @@ dostupné jsou i konvoluční metody, avšak při velkých obrázcích mohou bý
 
 Psáno pro verze python 3.5 a vyšší, autor nezaručuje kompabilitu pro již nepodoporované verze pythonu,
 veškeré nazené bugy a nestandartní chování můžete poslat na email.
+
+TODO:
+- vyresit proc je treba workaround na lighten/darken testy (je treba je ulozit aby sedeli, prob. fomat error)
+- v testech mockovat on test, né naráz pro všechny testy
+- použít scipy convolution function, místo té co je teď implementovaná (slow)
+- udělat funkce izolované tak, že vezmou jenom vstup a nebudou se hrabat v args
